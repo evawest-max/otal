@@ -67,7 +67,7 @@ export default function OtalHomePage() {
                 Embark on your journey to financial freedom with one of the most trusted names in Forex trading education. At Otal Institution, we equip aspiring traders with the skills, tools, and confidence needed to thrive in the dynamic world of Forex.
               </Text>
               <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
-                <Button colorScheme="teal" bg="rgb(40, 38, 121)" color="white">Get Started</Button>
+                <Button colorScheme="blue" bg="rgb(40, 38, 121)" color="white">Get Started</Button>
                 <Button variant="outline" colorScheme="blue" color="rgb(40, 38, 121)" borderColor="purple">
                   Become an Affiliate
                 </Button>
@@ -230,7 +230,7 @@ export default function OtalHomePage() {
             </Text>
           </Box>
         </SimpleGrid>
-        <Button mt={4}variant="outline" borderColor="rgb(40, 38, 121)" color="rgb(40, 38, 121)">Enroll now!!! <MdKeyboardArrowRight /></Button >
+        <Button colorScheme="blue" mt={4}variant="outline" borderColor="rgb(40, 38, 121)" color="rgb(40, 38, 121)">Enroll now!!! <MdKeyboardArrowRight /></Button >
       </Container>
 
       {/* Affiliate Program Section */}
@@ -264,7 +264,7 @@ export default function OtalHomePage() {
             <br />
             3. Get Paid – Earn every time someone enrolls through you.
           </Text>
-          <Button mt={3}>Join now-it's free</Button>
+          <Button colorScheme="blue" mt={3}>Join now-it's free</Button>
         </Container>
       </Box>
       {/* Footer */}
