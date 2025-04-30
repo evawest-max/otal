@@ -1,0 +1,267 @@
+#loginIcon-visibility-desktop {
+    display: none;
+}
+
+#loginIcon-visibility-mobile {
+    display: flex;
+    margin: auto;
+    /* border: 3px solid yellow; */
+    width: fit-content;
+    height: fit-content;
+    animation: fade-slide-left 1s ease-in-out forwards;
+}
+
+#login-Desktop-BTN {
+    display: none;
+}
+.everything {
+    /* display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    align-items: center;
+    box-shadow: 0px 0px 4px gray; */
+    /* z-index: 200; */
+    /* background: transparent; */
+}
+
+#menu-mobile-overall {
+    position: fixed;
+    /* border: 3px solid red; */
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    /* z-index: 300; */
+}
+
+#close-menubutton-mobile {
+    margin-right: 20px;
+    margin-left: auto;
+    margin-top: 10px;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 5px;
+    color: rgb(1, 40, 1);
+    animation: fade-slide-right 1s cubic-bezier(0, 1, 0, 1) forwards;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+}
+
+.nav-transparent-background {
+    position: absolute;
+    margin-right: 20px;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.2;
+}
+
+.navcontainer-mobile {
+    color: rgb(1, 40, 1);;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    /* z-index: 3; */
+    right: 10px;
+    height: 40px;
+}
+
+#menu-mobile-overall nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 0px 60px;
+    margin-top: 40px;
+}
+
+
+#menu-mobile-overall nav ul a {
+    color: rgb(1, 40, 1);
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'nunito';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    animation: fade-slide-left 1s ease-in-out forwards;
+    color: white;
+    margin: 30px 0px;
+    text-align: center;
+}
+
+#menu-mobile-overall nav ul a.active {
+    /* background-color: orange; */
+    border-radius: 5px;
+    padding: 2px 10px;
+    color: white;
+}
+
+.open-menubutton-mobile {
+    /* align-self: end; */
+    margin-right: 14px;
+    margin-top: 10px;
+    font-size: 25px;
+    background-color: none;
+    border-radius: 5px;
+    color: rgb(52, 52, 52);
+    animation: fade-slide-right 1s cubic-bezier(0, 1, 0, 1) forwards;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+
+#menu-mobile-overall nav ul div {
+    align-items: center;
+    display: flex;
+    margin: 80px 0px;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+/* .Sign-menu nav .menubutton-mobile{
+    color: white;
+    right: 10px;
+} */
+#menu-mobile-overall nav {
+    position: fixed;
+    background: radial-gradient(61.32% 53.53% at 33.80% 48.98%, rgb(1, 61, 1), #01000A 100%);
+    animation: fade-slide-right ease-in-out forwards;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 85%;
+    right: 0px;
+    top: 0px;
+    animation: fade-slide-right 1s cubic-bezier(0, 1, 0, 1) forwards;
+}
+
+.navcontainer {
+    color: black;
+    display: none;
+    flex-direction: row;
+    margin: 0px 200px;
+    width: 580px;
+    /* border: 3px solid red; */
+}
+
+.logo {
+    /* width: 70px;
+    height: 70px;
+    margin-right: 172;
+    cursor: pointer; */
+    /* border-radius: 50%; */
+    /* box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.45); */
+    /* margin: auto 0px;
+    margin-left: 40%; */
+}
+
+
+
+
+@media screen and (min-width:390px) {}
+
+@media screen and (min-width:540px) {}
+
+@media screen and (min-width:900px) {
+    #loginIcon-visibility-desktop {
+        /* display: flex; */
+        /* border: 3px solid yellow; */
+        /* width: fit-content;
+        height: fit-content; */
+    }
+
+    .everything {
+        /* display: flex;
+        justify-content: space-evenly;
+        position: sticky;
+        align-items: center;
+        top: 0px;
+        background-color: white; */
+        /* z-index: 1; */
+        /* border: 3px solid red; */
+        /* background-color: white; */
+    }
+
+    .open-menubutton-mobile {
+        display: none;
+        animation: slide 0.5s forwards;
+        animation-delay: 2s;
+        -webkit-animation: slide-out 2s forwards;
+    }
+    #login-Desktop-BTN {
+        display: flex;
+        /* margin: auto; */
+        /* border: 3px solid yellow; */
+        /* width: fit-content;
+        height: fit-content; */
+        animation: fade-slide-left 1s ease-in-out forwards;
+    }
+
+    .navcontainer {
+        /* border: 3px solid red; */
+        /* color: black; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 5%;
+        margin: auto 10px;
+        height: fit-content;
+        width: fit-content;
+        min-width: 376px;
+    }
+
+    .navcontainer nav {
+        /* border: 3px solid rgb(6, 210, 251); */
+        background-color: transparent;
+        padding: 15px 20px;
+        border-radius: 20px;
+        /* border: 3px solid rgb(9, 255, 0); */
+        /* box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.45); */
+
+    }
+
+    .navcontainer nav a {
+        /* border: 3px solid rgb(15, 238, 3); */
+        color: rgb(1, 40, 1);
+        list-style: none;
+        text-decoration: none;
+        text-align: center;
+        font-family: 'nunito';
+        font-size: 100%;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        cursor: pointer;
+        margin: 0px 8px; 
+        border-radius: 7px;
+        padding: 10px;
+    }
+
+    .navcontainer nav a:hover {
+        /* border-color: rgb(40, 38, 121); */
+        border-bottom: 2px solid rgb(40, 38, 121);
+            transition: all 0.3s ease-in-out;
+        /* color: white; */
+    }
+
+    /* .login-name-on-navbar {
+        font-weight: bolder;
+    } */
+    .logo {
+        /* width: 70px;
+        height: 70px;
+        margin-right: 172;
+        cursor: pointer; */
+        /* border-radius: 50%; */
+        /* box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.45); */
+        /* margin: auto 0px;
+        margin-left: 50%; */
+    }
+}
