@@ -17,10 +17,9 @@ import { ImWarning } from "react-icons/im";
 import Footer from './otalFooter';
 import forex from "../assets/forex.jpg"
 import ceo from '../assets/ceo.jpg'; // Adjust the path as necessary
-import heroImage from "../assets/Hero image.jpg"
+import heroImage from "../assets/hero image.jpg"; // Adjust the path as necessary
 import { Navbar } from './nav components/desktop nav/nav';
 import axios from 'axios';
-// import ceoImage from '../assets/ceo.jpg'; // Adjust the path as necessary
 
 export default function OtalHomePage() {
   const [exchangeRate, setExchangeRate] = useState(null);
