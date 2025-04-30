@@ -108,7 +108,7 @@ export default function OtalHomePage() {
           />
           <Box>
             <Heading as="h2" size="lg" mb={2}>
-              Mr. John Doe
+              Mr. John Doe (CEO & Founder)
             </Heading>
             <Text>
               John Doe is the visionary behind our company, driven by innovation and a passion for creating lasting impact. With over 10 years of experience in tech and leadership, he’s committed to building a future where creativity meets cutting-edge technology. His dedication to excellence and community drives everything we do.
