@@ -129,7 +129,7 @@ export default function OtalHomePage() {
               </Text>
             </Box>
             <SimpleGrid columns={{ base: 1, md: 2 }} spacing={8}>
-              <Box>
+              <Box mt={4}>
                 <Heading as="h3" size="md" mb={2}>
                   Structured learning for all levels
                 </Heading>
