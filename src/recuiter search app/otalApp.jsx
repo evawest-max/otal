@@ -13,6 +13,7 @@ import {
   Text,
   VStack,
 } from '@chakra-ui/react';
+import { MdKeyboardArrowRight } from "react-icons/md";
 import { ImWarning } from "react-icons/im";
 import Footer from './otalFooter';
 import forex from "../assets/forex.jpg"
@@ -229,6 +230,7 @@ export default function OtalHomePage() {
             </Text>
           </Box>
         </SimpleGrid>
+        <Button mt={4}variant="outline" borderColor="rgb(40, 38, 121)" color="rgb(40, 38, 121)">Enroll now!!! <MdKeyboardArrowRight /></Button >
       </Container>
 
       {/* Affiliate Program Section */}
